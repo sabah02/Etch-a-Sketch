@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+* {
+    background-color: #04080f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #FE7531;
+}
+
+h2 {
+    font-size: 46px;
+    margin: 28px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.outside {
+    display: flex;
+    justify-content: center;
+}
+
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 380px; 
+}
+
+.changeGrid, .clearGrid {
+    border: 1px solid #fbf9df;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+.gridButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    gap: 18px;
+}
+
+button {
+    background-color: #191919;
+    color: #FE7531;
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.jadeC, .persianRedC, .celestialBlueC, .fulvousC {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.jadeC {
+    background-color: #59a96a;
+}
+
+.persianRedC {
+    background-color: #CC3333;
+}
+
+.celestialBlueC {
+    background-color: #0897cc;
+}
+
+.fulvousC {
+    background-color: #e08200;
+}
+
+.hover:hover{
+    color: #FEB997;
+}
+
